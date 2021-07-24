@@ -32,7 +32,7 @@ function App() {
         <center>
           <h3>Social Authentication by using Firebase</h3>
           <GoogleLogin
-            clientId="984769911314-o6s21u9fn9t415hi6etehdih1e6lvkt1.apps.googleusercontent.com"
+            clientId=""
             buttonText="Login"
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
@@ -40,7 +40,7 @@ function App() {
           />
           <br></br>
           <FacebookLogin
-            appId="1064692507684635"
+            appId=""
             autoLoad={true}
             fields="name,email,picture"
             callback={responseFacebook}
